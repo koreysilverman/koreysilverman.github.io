@@ -181,7 +181,7 @@ section { position: relative; z-index: 1; padding: 120px 48px; }
 .philosophy-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
 .philosophy-card { padding: 48px 36px; border: 1px solid var(--border-subtle); background: var(--bg-card); transition: border-color 0.4s; opacity: 0; transform: translateY(30px); }
 .philosophy-card:hover { border-color: var(--border-accent); }
-.philosophy-icon { font-size: 28px; margin-bottom: 20px; }
+.philosophy-icon { width: 48px; height: 48px; margin-bottom: 20px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--border-accent); border-radius: 4px; color: var(--accent-primary); font-size: 22px; }
 .philosophy-title { font-size: 20px; font-weight: 600; margin-bottom: 12px; letter-spacing: -0.5px; }
 .philosophy-desc { font-size: 14px; color: var(--text-secondary); line-height: 1.8; }
 .philosophy-quote { font-family: var(--font-serif); font-style: italic; font-size: 13px; color: var(--accent-primary); margin-top: 16px; opacity: 0.7; line-height: 1.6; }
@@ -452,19 +452,19 @@ section { position: relative; z-index: 1; padding: 120px 48px; }
   <p class="section-subtitle reveal">I've learned more from the people doing the work every day than from any textbook. The best solutions come from understanding first.</p>
   <div class="philosophy-grid">
     <div class="philosophy-card">
-      <div class="philosophy-icon">👂</div>
+      <div class="service-icon">👂</div>
       <div class="philosophy-title">Understand Before Building</div>
       <div class="philosophy-desc">I ask a lot of questions. I want to know the what and the why — what's frustrating, what's been tried, what a good day looks like. The investigation matters as much as the solution.</div>
       <div class="philosophy-quote">"He who has a why to live can bear with almost any how." — Viktor Frankl</div>
     </div>
     <div class="philosophy-card">
-      <div class="philosophy-icon">🔨</div>
+      <div class="service-icon">🔨</div>
       <div class="philosophy-title">Build Things That Last</div>
       <div class="philosophy-desc">I'm not interested in quick fixes that fall apart in six months. I build things that feel right, work reliably, and that your team actually wants to use — because they had a say in how it was made.</div>
       <div class="philosophy-quote">"The work is the point." — showing up, over and over again</div>
     </div>
     <div class="philosophy-card">
-      <div class="philosophy-icon">🤝</div>
+      <div class="service-icon">🤝</div>
       <div class="philosophy-title">Make People's Lives Better</div>
       <div class="philosophy-desc">At the end of the day, every tool, every process, every system is about people. If something I build makes someone's workday a little less stressful — that's the whole point.</div>
       <div class="philosophy-quote">"True nobility is being superior to your former self." — Hemingway</div>
